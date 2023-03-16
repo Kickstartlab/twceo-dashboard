@@ -858,23 +858,23 @@ export default function Home() {
 
                             <div className="flex flex-wrap items-center gap-x-3 justify-between mt-8">
 
-                                <img src={part_1} alt="Logo" className='' />
-                                <img src={part_2} alt="Logo" className='' />
-                                <img src={part_3} alt="Logo" className='' />
-                                <img src={part_4} alt="Logo" className='' />
-                                <img src={part_5} alt="Logo" className='' />
+                                <img src={part_1} alt="Logo" className='lg:w-auto w-32' />
+                                <img src={part_2} alt="Logo" className='lg:w-auto w-20' />
+                                <img src={part_3} alt="Logo" className='lg:w-auto w-20' />
+                                <img src={part_4} alt="Logo" className='lg:w-auto w-32' />
+                                <img src={part_5} alt="Logo" className='lg:w-auto w-32' />
 
                             </div>
 
                             <div className="flex flex-wrap items-center gap-x-3 justify-between mt-6">
 
-                                <img src={part_6} alt="Logo" className='' />
-                                <img src={part_7} alt="Logo" className='' />
-                                <img src={part_8} alt="Logo" className='md:w-5/12' />
+                                <img src={part_6} alt="Logo" className='lg:w-auto w-24' />
+                                <img src={part_7} alt="Logo" className='lg:w-auto w-24' />
+                                <img src={part_8} alt="Logo" className='lg:w-1/3 w-24' />
 
                             </div>
 
-                            <img src={part_9} alt="Logo" className='mt-6' />
+                            <img src={part_9} alt="Logo" className='mt-6 lg:w-auto w-16' />
 
                         </div>
 
