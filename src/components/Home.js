@@ -53,7 +53,7 @@ export default function Home() {
 
                 <div className='flex lg:gap-x-6 gap-x-0'>
 
-                    <div className=''>
+                    <div className='w-inherit'>
                         <Menu />
                     </div>
 
@@ -86,17 +86,10 @@ export default function Home() {
 
                                 </div>
 
-                                <div className='flex gap-x-10 items-center'>
-
-                                    <a href='/' className='font-montserat font-semibold text-lg'>
-                                        Login
-                                    </a>
 
                                     <button className='font-montserat font-semibold text-lg border border-yellow-100 rounded-lg py-3 px-6'>
                                         Connect wallet
                                     </button>
-
-                                </div>
 
                             </div>
 
@@ -599,7 +592,7 @@ export default function Home() {
 
                             <div className='border border-t-2 mb-12 border-white-50 opacity-30'></div>
 
-                            <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-x-6 justify-between mt-8 space-y-6">
+                            <div className="flex flex-wrap gap-x-6 justify-between items-baseline mt-8 space-y-6">
 
                                 <div className='col-1'>
                                     <h4 className='text-xl font-inter text-seagreen-50 font-semibold'>
