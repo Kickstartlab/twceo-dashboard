@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import logo from '../assets/logo.png';
 import sport from '../assets/sport.png';
 import lottery from '../assets/lottery.png';
@@ -6,12 +6,14 @@ import vip from '../assets/vip.png';
 import forum from '../assets/forum.png';
 import support from '../assets/support.png';
 import other from '../assets/other.png';
+import { AppContext } from "../utils";
 
 
 
 export default function Menu() {
 
   const [show, setShow] = useState(false);
+  const { account, connect, disconnect } = useContext(AppContext);
 
 
   return (
@@ -76,8 +78,24 @@ export default function Menu() {
 
       </div>
 
-      <div className="lg:hidden fixed bg-gray-100 w-full p-2 z-20 flex items-center justify-center gap-x-3 text-white-100 left-0 top-0">
-        Menu
+      <div className="lg:hidden fixed bg-gray-100 w-full p-2 z-20 flex items-center justify-between gap-x-3 text-white-100 left-0 top-0">
+
+        {account ? (
+          <button
+            onClick={() => disconnect()}
+            className="font-montserat font-semibold border border-yellow-100 hover:bg-yellow-100 rounded-lg py-2 px-3 text-sm"
+          >
+            {account.slice(0, 4) + "..." + account.slice(-4)}
+          </button>
+        ) : (
+          <button
+            onClick={() => connect()}
+            className="font-montserat font-semibold border border-yellow-100 hover:bg-yellow-100 rounded-lg py-2 px-3 text-sm"
+          >
+            Connect wallet
+          </button>
+        )}
+
         <button onClick={() => setShow(!show)} className="nav cursor-pointer">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-white-100">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
