@@ -94,7 +94,20 @@ export default function Home() {
           {/* top section */}
 
           <div className="lg:py-12 py-8 lg:pr-20 px-5 lg:mt-0 mt-8">
-            <img data-aos="zoom-in" src={banner_top} alt="Logo" className="" />
+              <img data-aos="zoom-in" src={banner_top} alt="Logo" className="" />
+              <div className="lg:block hidden">
+
+              <p className="text-yellow-100 font-montserat absolute right-52 -mt-5 text-lg lg:-translate-y-44 -translate-y-14 lg:mr-44 mr-12">
+                next draw in
+              </p>
+              <h2 className="text-white-100 font-montserat font-extrabold lg:text-4xl text-xl lg:-translate-y-44 -translate-y-14 lg:mr-44 mr-12 text-right pt-2">
+                06h:15m:46s
+              </h2>
+              <div className="font-montserat font-semibold text-white-100 lg:text-lg text-sm rounded-lg py-3 md:px-5 px-2  lg:-translate-y-40 -translate-y-14 lg:mr-44 mr-12 absolute right-28 bg-yellow-100">
+                Buy Ticket
+                <p className="font-normal">1 ticket for 5 TCEO</p>
+              </div>
+            </div>
 
             <p className="font-montserat font-bold py-2 text-white-100 lg:text-right">
               Don't miss your chance!{" "}
@@ -139,7 +152,7 @@ export default function Home() {
                 </h4>
 
                 <div className="flex flex-wrap items-center">
-                  <svg
+                  <svg  data-aos="fade-up"
                     width="68"
                     height="68"
                     viewBox="0 0 68 68"
@@ -205,7 +218,7 @@ export default function Home() {
                     </defs>
                   </svg>
 
-                  <svg
+                  <svg data-aos="fade-down"
                     width="69"
                     height="68"
                     viewBox="0 0 69 68"
@@ -275,7 +288,7 @@ export default function Home() {
                     </defs>
                   </svg>
 
-                  <svg
+                  <svg data-aos="fade-up"
                     width="69"
                     height="68"
                     viewBox="0 0 69 68"
@@ -345,7 +358,7 @@ export default function Home() {
                     </defs>
                   </svg>
 
-                  <svg
+                  <svg data-aos="fade-down"
                     width="69"
                     height="68"
                     viewBox="0 0 69 68"
@@ -411,7 +424,7 @@ export default function Home() {
                     </defs>
                   </svg>
 
-                  <svg
+                  <svg data-aos="fade-up"
                     width="69"
                     height="68"
                     viewBox="0 0 69 68"
@@ -498,7 +511,7 @@ export default function Home() {
                     </p>
 
                     <div>
-                      <ul className="lg:space-y-10 space-y-5">
+                      <ul className="lg:space-y-8 space-y-5">
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
                           Lorem Ipsum
                         </li>
