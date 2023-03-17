@@ -20,7 +20,7 @@ export default function Menu() {
 
     <header>
 
-      <div data-aos='slide-right' className="bg-gray-100 w-64 sidebar h-full p-2 fixed left-0 top-0 space-y-8 py-5 lg:block hidden z-20">
+      <div className="bg-gray-100 w-64 sidebar h-full p-2 fixed left-0 top-0 space-y-8 py-5 lg:block hidden z-20">
 
         <div className="mt-3 px-3 mb-12">
           <a href="/" className="">
@@ -48,7 +48,7 @@ export default function Menu() {
           <img src={vip} alt="Logo" className='' />
 
           <a href='#partner' className='font-oswald font-semibold text-lg'>
-            VIP Club
+           Payment Partners
           </a>
         </button>
 
@@ -141,7 +141,7 @@ export default function Menu() {
             <img src={vip} alt="Logo" className='' />
 
             <a href='#partner' className='font-oswald font-semibold text-lg'>
-              VIP Club
+             Payment Partners
             </a>
           </button>
 

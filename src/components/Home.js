@@ -60,7 +60,7 @@ export default function Home() {
                 <div className="flex gap-x-2 items-center">
                   <img src={sport} alt="Logo" className="" />
 
-                  <a href="/" className="font-oswald font-semibold text-lg">
+                  <a href="#sports" className="font-oswald font-semibold text-lg">
                     Sports
                   </a>
                 </div>
@@ -68,7 +68,7 @@ export default function Home() {
                 <div className="flex gap-x-2 items-center">
                   <img src={lottery} alt="Logo" className="" />
 
-                  <a href="/" className="font-oswald font-semibold text-lg">
+                  <a href="#lottery" className="font-oswald font-semibold text-lg">
                     Lottery
                   </a>
                 </div>
@@ -94,7 +94,7 @@ export default function Home() {
           {/* top section */}
 
           <div className="lg:py-12 py-8 lg:pr-20 px-5 lg:mt-0 mt-8">
-            <img data-aos="zoom-in" src={banner_top} alt="Logo" className="" />
+            <img src={banner_top} alt="Logo" className="" />
             <div className="lg:block hidden">
 
               <p className="text-yellow-100 font-montserat absolute right-52 -mt-5 text-lg lg:-translate-y-44 -translate-y-14 lg:mr-44 mr-12">
@@ -622,7 +622,7 @@ export default function Home() {
 
           <div id="play" className="lg:py-12 py-8 lg:pr-20 px-5">
             <div>
-              <img data-aos="zoom-in" src={play} alt="Logo" className="" />
+              <img src={play} alt="Logo" className="" />
 
               <h2 className="text-white-100 font-montserat font-extrabold lg:text-4xl text-xl lg:-translate-y-44 -translate-y-14 lg:ml-12 ml-4">
                 HOW TO PLAY?
@@ -630,7 +630,6 @@ export default function Home() {
             </div>
 
             <div
-              data-aos="fade-up"
               className="grid lg:grid-cols-3 grid-cols-1 items-center gap-4 text-white-100 font-montserat"
             >
               <div className="bg h-full w-full p-16 space-y-6">
@@ -811,14 +810,12 @@ export default function Home() {
             <div className="py-6">
 
               <h3
-                data-aos="zoom-in"
                 className="text-white-100 text-center font-montserat font-semibold lg:text-4xl text-2xl"
               >
                 Payment Partners
               </h3>
 
               <div
-                data-aos="zoom-out"
                 className="flex flex-wrap items-center gap-x-6 justify-center lg:mt-16 mt-8"
               >
                 <img src={net_1} alt="Logo" className="" />
