@@ -129,7 +129,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div data-aos="zoom-in" className="bg-gray-50 rounded-2xl p-5 mt-8">
+            <div id="sports" data-aos="zoom-in" className="bg-gray-50 rounded-2xl p-5 mt-8">
               <div className="flex flex-wrap gap-x-8 items-center space-y-3">
                 <p className="font-montserat font-semibold text-lg text-black-50 ">
                   Game ID
@@ -513,19 +513,19 @@ export default function Home() {
                     <div>
                       <ul className="lg:space-y-8 space-y-5">
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
-                          Lorem Ipsum
+                          Twitter CEO
                         </li>
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
-                          Lorem Ipsum
+                          Elon Musk
                         </li>
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
-                          Lorem Ipsum
+                          Twitter Doge
                         </li>
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
-                          Lorem Ipsum
+                          DogeDesigner
                         </li>
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
-                          Lorem Ipsum
+                          Changpeng Zhao
                         </li>
                       </ul>
                     </div>
@@ -596,19 +596,19 @@ export default function Home() {
                     <div>
                       <ul className="lg:space-y-10 space-y-5">
                         <li className="flex items-center gap-x-2 text-yellow-100">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                         <li className="flex items-center gap-x-2 text-yellow-100">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                         <li className="flex items-center gap-x-2 text-yellow-100">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                         <li className="flex items-center gap-x-2 text-yellow-100">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                         <li className="flex items-center gap-x-2 text-yellow-100">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                       </ul>
                     </div>
@@ -620,7 +620,7 @@ export default function Home() {
 
           {/* HOW TO PLAY? */}
 
-          <div className="lg:py-12 py-8 lg:pr-20 px-5">
+          <div id="play" className="lg:py-12 py-8 lg:pr-20 px-5">
             <div>
               <img data-aos="zoom-in" src={play} alt="Logo" className="" />
 
@@ -674,7 +674,7 @@ export default function Home() {
 
           {/* lottery rulate */}
 
-          <div className="lg:py-12 py-8 lg:pr-20 px-5">
+          <div id="lottery" className="lg:py-12 py-8 lg:pr-20 px-5">
             <h2
               data-aos="slide-right"
               className="text-white-100 font-montserat font-extrabold lg:text-4xl text-2xl"
@@ -745,16 +745,16 @@ export default function Home() {
                     <div>
                       <ul className="lg:space-y-10 space-y-5 flex flex-col items-center">
                         <li className="text-yellow-100 text-xl">
-                          ₨28,181,890.42
+                          $28,181,890.42
                         </li>
                         <li className="lg:text-right text-white-100 lg:text-xl">
-                          ₨845,456.71
+                          $845,456.71
                         </li>
                         <li className="lg:text-right text-white-100 lg:text-xl">
-                          ₨5,636.37
+                          $5,636.37
                         </li>
                         <li className="lg:text-right text-white-100 lg:text-xl">
-                          ₨281.81
+                          $281.81
                         </li>
                         <li className="lg:text-right text-white-100 lg:text-xl">
                           +1 Ticket
@@ -800,304 +800,68 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
 
-          {/* links section */}
-
-          <div className="lg:py-12 py-8 lg:pr-20 px-5">
-            <div className="border border-t-2 mb-12 border-white-50 opacity-30"></div>
-
-            <div className="flex flex-wrap gap-x-6 justify-between items-baseline mt-8 space-y-6">
-              <div data-aos="fade-in" className="col-1">
-                <h4 className="text-xl font-inter text-seagreen-50 font-semibold">
-                  Pages
-                </h4>
-
-                <div className="mt-8">
-                  <ul className="space-y-6 text-white-100">
-                    <li>
-                      <a href="/">Casino Home</a>
-                    </li>
-                    <li>
-                      <a href="/">Slots</a>
-                    </li>
-                    <li>
-                      <a href="/">Live Casino</a>
-                    </li>
-                    <li>
-                      <a href="/">New Releases</a>
-                    </li>
-                    <li>
-                      <a href="/">Recommended</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div data-aos="fade-in" className="col-2">
-                <h4 className="text-xl font-inter text-seagreen-50 font-semibold">
-                  Sports
-                </h4>
-
-                <div className="mt-8">
-                  <ul className="space-y-6 text-white-100">
-                    <li>
-                      <a href="/">Sports Home</a>
-                    </li>
-                    <li>
-                      <a href="/">Live</a>
-                    </li>
-                    <li>
-                      <a href="/">Rules</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div data-aos="fade-in" className="col-3">
-                <h4 className="text-xl font-inter text-seagreen-50 font-semibold">
-                  Promo
-                </h4>
-
-                <div className="mt-8">
-                  <ul className="space-y-6 text-white-100">
-                    <li>
-                      <a href="/">VIP Club</a>
-                    </li>
-                    <li>
-                      <a href="/">Affiliate</a>
-                    </li>
-                    <li>
-                      <a href="/">Promotions</a>
-                    </li>
-                    <li>
-                      <a href="/">Lottery</a>
-                    </li>
-                    <li>
-                      <a href="/">Refer A Friend</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div data-aos="fade-in" className="col-5">
-                <h4 className="text-xl font-inter text-seagreen-50 font-semibold">
-                  About us
-                </h4>
-
-                <div className="mt-8">
-                  <ul className="space-y-6 text-white-100">
-                    <li>
-                      <a href="/">News</a>
-                    </li>
-                    <li>
-                      <a href="/">Work With us</a>
-                    </li>
-                    <li>
-                      <a href="/">Business Contracts</a>
-                    </li>
-                    <li>
-                      <a href="/">Help Desk</a>
-                    </li>
-                    <li>
-                      <a href="/">Verify Representative</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div data-aos="fade-in" className="col-4">
-                <h4 className="text-xl font-inter text-seagreen-50 font-semibold">
-                  Support / Legal
-                </h4>
-
-                <div className="mt-8">
-                  <ul className="space-y-6 text-white-100">
-                    <li>
-                      <a href="/">Help Centre</a>
-                    </li>
-                    <li>
-                      <a href="/">Gamble Aware</a>
-                    </li>
-                    <li>
-                      <a href="/">Fairness</a>
-                    </li>
-                    <li>
-                      <a href="/">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="/">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="/">Terms of Service</a>
-                    </li>
-                    <li>
-                      <a href="/">Self-exclusion</a>
-                    </li>
-                    <li>
-                      <a href="/">AML</a>
-                    </li>
-                    <li>
-                      <a href="/">Design Resources</a>
-                    </li>
-                    <li>
-                      <a href="/">APP</a>
-                    </li>
-                    <li>
-                      <a href="/">Live Support</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              className="lg:-translate-y-28 -translate-y-0 lg:mt-0 mt-6"
-            >
-              <p className="font-montserat text-white-100 text-lg pb-3">
-                Join Our Community
-              </p>
-              <div className="flex gap-x-4 items-center">
-                <a href="/">
-                  <img src={twitter} alt="Twitter" />
-                </a>
-
-                <a href="/">
-                  <img src={telegram} alt="Telegram" />
-                </a>
-
-                <a href="/">
-                  <img src={orb} alt="Telegram" />
-                </a>
-
-                <a href="/">
-                  <img src={redit} alt="Telegram" />
-                </a>
-              </div>
-            </div>
           </div>
 
           {/* network section */}
 
-          <div className="lg:py-12 py-8 lg:pr-20 px-5 ">
+          <div id="partner" className="lg:py-12 py-8 lg:pr-20 px-5">
+
             <div className="border border-t-2 mb-8 border-white-50 opacity-30"></div>
+            <div className="py-6">
 
-            <h3
-              data-aos="zoom-in"
-              className="text-white-100 text-center font-montserat font-semibold lg:text-4xl text-2xl"
-            >
-              Accepted Networks
-            </h3>
-
-            <div
-              data-aos="zoom-out"
-              className="flex flex-wrap items-center gap-x-6 justify-center mt-8"
-            >
-              <img src={net_1} alt="Logo" className="" />
-              <img src={net_2} alt="Logo" className="" />
-              <img src={net_3} alt="Logo" className="" />
-              <img src={net_4} alt="Logo" className="" />
-              <img src={net_5} alt="Logo" className="" />
-              <img src={net_6} alt="Logo" className="" />
-              <img src={net_7} alt="Logo" className="" />
-              <img src={net_8} alt="Logo" className="" />
-            </div>
-          </div>
-
-          {/* partner section */}
-
-          <div className="lg:py-12 py-8 lg:pr-20 px-5 ">
-            <div className="border border-t-2 mb-8 border-white-50 opacity-30"></div>
-
-            <h3
-              data-aos="fade-up"
-              className="text-white-100 font-montserat font-semibold lg:text-4xl text-2xl"
-            >
-              Sponsorship and Gaming Responsibilities
-            </h3>
-
-            <div className="flex flex-wrap items-center gap-x-3 justify-between mt-8">
-              <img
+              <h3
                 data-aos="zoom-in"
-                src={part_1}
-                alt="Logo"
-                className="lg:w-auto w-32"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_2}
-                alt="Logo"
-                className="lg:w-auto w-20"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_3}
-                alt="Logo"
-                className="lg:w-auto w-20"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_4}
-                alt="Logo"
-                className="lg:w-auto w-32"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_5}
-                alt="Logo"
-                className="lg:w-auto w-32"
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-x-3 justify-between mt-6">
-              <img
-                data-aos="zoom-in"
-                src={part_6}
-                alt="Logo"
-                className="lg:w-auto w-24"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_7}
-                alt="Logo"
-                className="lg:w-auto w-24"
-              />
-              <img
-                data-aos="zoom-in"
-                src={part_8}
-                alt="Logo"
-                className="lg:w-1/3 w-24"
-              />
-            </div>
-
-            <img
-              data-aos="zoom-in"
-              src={part_9}
-              alt="Logo"
-              className="mt-6 lg:w-auto w-16"
-            />
-          </div>
-
-          {/* bottom section */}
-
-          <div className="lg:py-12 py-8 lg:pr-20 px-5 ">
-            <div className="border border-t-2 mb-8 border-white-50 opacity-30"></div>
-
-            <div className="lg:flex items-center gap-x-3 ">
-              <img data-aos="zoom-in" src={logo_1} alt="Logo" className="" />
-
-              <p
-                data-aos="slide-left"
-                className="font-montserat text-white-100 leading-loose text-lg"
+                className="text-white-100 text-center font-montserat font-semibold lg:text-4xl text-2xl"
               >
-                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit interdum, ac aliquet odio mattis.
-                Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos.
-              </p>
+                Payment Partners
+              </h3>
+
+              <div
+                data-aos="zoom-out"
+                className="flex flex-wrap items-center gap-x-6 justify-center lg:mt-16 mt-8"
+              >
+                <img src={net_1} alt="Logo" className="" />
+                <img src={net_2} alt="Logo" className="" />
+                <img src={net_3} alt="Logo" className="" />
+                <img src={net_4} alt="Logo" className="" />
+                <img src={net_5} alt="Logo" className="" />
+                <img src={net_6} alt="Logo" className="" />
+                <img src={net_7} alt="Logo" className="" />
+                <img src={net_8} alt="Logo" className="" />
+              </div>
             </div>
           </div>
+
+
+          <div className="border border-t-2 my-6 border-white-50 opacity-30"></div>
+
+          <div id="support"
+            className="lg:my-12 my-6"
+          >
+            <p className="font-montserat text-white-100 text-lg pb-3 text-center mt-5">
+              Join Our Community
+            </p>
+            <div className="flex gap-x-4 items-center justify-center">
+              <a href="/">
+                <img src={twitter} alt="Twitter" />
+              </a>
+
+              <a href="/">
+                <img src={telegram} alt="Telegram" />
+              </a>
+
+              <a href="/">
+                <img src={orb} alt="Telegram" />
+              </a>
+
+              <a href="/">
+                <img src={redit} alt="Telegram" />
+              </a>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
