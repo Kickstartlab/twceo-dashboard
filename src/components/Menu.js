@@ -18,7 +18,7 @@ export default function Menu() {
 
     <header>
 
-      <div className="bg-gray-100 w-64 sidebar fixed left-0 top-0 space-y-8 py-5 lg:block hidden z-20">
+      <div data-aos='slide-right' className="bg-gray-100 w-64 sidebar fixed left-0 top-0 space-y-8 py-5 lg:block hidden z-20">
 
         <div className="mt-3 px-3 mb-12">
           <a href="/" className="">
