@@ -94,8 +94,8 @@ export default function Home() {
           {/* top section */}
 
           <div className="lg:py-12 py-8 lg:pr-20 px-5 lg:mt-0 mt-8">
-              <img data-aos="zoom-in" src={banner_top} alt="Logo" className="" />
-              <div className="lg:block hidden">
+            <img data-aos="zoom-in" src={banner_top} alt="Logo" className="" />
+            <div className="lg:block hidden">
 
               <p className="text-yellow-100 font-montserat absolute right-52 -mt-5 text-lg lg:-translate-y-44 -translate-y-14 lg:mr-44 mr-12">
                 next draw in
@@ -152,7 +152,7 @@ export default function Home() {
                 </h4>
 
                 <div className="flex flex-wrap items-center">
-                  <svg  data-aos="fade-up"
+                  <svg data-aos="fade-up"
                     width="68"
                     height="68"
                     viewBox="0 0 68 68"
