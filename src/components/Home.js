@@ -1,14 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import Menu from "./Menu";
-import part_1 from "../assets/part_1.png";
-import part_2 from "../assets/part_2.png";
-import part_3 from "../assets/part_3.png";
-import part_4 from "../assets/part_4.png";
-import part_5 from "../assets/part_5.png";
-import part_6 from "../assets/part_6.png";
-import part_7 from "../assets/part_7.png";
-import part_8 from "../assets/part_8.png";
-import part_9 from "../assets/part_9.png";
 import net_1 from "../assets/net_1.png";
 import net_2 from "../assets/net_2.png";
 import net_3 from "../assets/net_3.png";
@@ -21,7 +12,6 @@ import twitter from "../assets/twitter.png";
 import telegram from "../assets/telegram.png";
 import orb from "../assets/orb.png";
 import redit from "../assets/redit.png";
-import logo_1 from "../assets/logo_1.png";
 import play from "../assets/play.png";
 import play_1 from "../assets/play_1.png";
 import play_2 from "../assets/play_2.png";
@@ -840,11 +830,11 @@ export default function Home() {
               Join Our Community
             </p>
             <div className="flex gap-x-4 items-center justify-center">
-              <a href="/">
+              <a href="https://twitter.com/TCEOToken">
                 <img src={twitter} alt="Twitter" />
               </a>
 
-              <a href="/">
+              <a href="https://t.me/twitterceogroup">
                 <img src={telegram} alt="Telegram" />
               </a>
 
