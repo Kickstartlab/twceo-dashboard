@@ -494,14 +494,14 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between py-4 space-y-6">
-                  <div className="space-y-6 flex flex-col items-center">
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between py-4 lg:space-y-0 space-y-6">
+                  <div className="space-y-6 flex flex-col lg:items-start items-center">
                     <p className="font-montserat font-semibold text-black-50 ">
                       Winner Name
                     </p>
 
                     <div>
-                      <ul className="lg:space-y-8 space-y-5">
+                      <ul className="lg:space-y-10 space-y-5">
                         <li className="font-montserat font-semibold text-white-100 md:text-xl">
                           Twitter CEO
                         </li>
@@ -552,7 +552,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="space-y-6 flex flex-col items-center">
+                  <div className="space-y-8 flex flex-col items-center">
                     <p className="font-montserat font-semibold text-black-50 ">
                       Matches
                     </p>
@@ -578,7 +578,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="space-y-6 flex flex-col items-center">
+                  <div className="space-y-8 flex flex-col items-center">
                     <p className="font-montserat font-semibold text-black-50 ">
                       Matches
                     </p>
